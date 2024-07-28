@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="../css/jquery.fullPage.css" type="text/css" />
+    <link rel="stylesheet" href="../css/memories.css" type="text/css" />
+    <link rel="stylesheet" href="../css/bubbles.css" type="text/css" />
+</head>
+
+<body>
+    <div class="bgcolor">
+        <div style="z-index:100;" id="dowebok">
+            <div class="section">
+                <div class="section-content" style="background-image: url(/img/wife-birthday.png);">
+                    <audio src="../audio/myWife.mp3" id="audioMyWife"></audio>
+                    <div class="section-actions">
+                        <button type="button" id="playMyWife">
+                            <img src="/img/play.png" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-content" style="background-image: url(/img/lulu.jpg);">
+                    <div class="section-actions">
+                        <audio src="../audio/lulu-01.mp3" id="audioLuLu"></audio>
+                        <audio src="../audio/lulu-02.mp3" id="audioLuLu2"></audio>
+                        <button type="button" id="playLuLu">
+                            <img src="/img/play.png" />
+                        </button>
+                        <button type="button" id="playLuLu2">
+                            <img src="/img/play.png" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-content" style="background-image: url(/img/xiaoya.jpg);">
+                    <div class="section-actions">
+                        <audio src="../audio/xiaoya.mp3" id="audioXiaoYa"></audio>
+                        <button type="button" id="playXiaoYa">
+                            <img src="/img/play.png" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-content" style="background-image: url(/img/meng.jpg);">
+                    <div class="section-actions">
+                        <audio src="../audio/meng.mp3" id="audioMeng"></audio>
+                        <button type="button" id="playMeng">
+                            <img src="/img/play.png" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-content" style="background-image: url(/img/ran.jpg);">
+                    <div class="section-actions">
+                        <audio src="../audio/ran.mp3" id="audioRan"></audio>
+                        <button type="button" id="playRan">
+                            <img src="/img/play.png" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-content is-video">
+                    <video controls id="mimiVideo">
+                        <source src="../audio/mimi.mp4" type="video/mp4">
+                      </video>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/jquery.fullPage.min.js"></script>
+    <!-- <script src="../js/auto-play.js"></script> -->
+    <script src="../js/memories.js"></script>
+    <audio src="../music/2.mp3" autoplay="autoplay" loop="loop"></audio>
+</body>
+
+</html>
